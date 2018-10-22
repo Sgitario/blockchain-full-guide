@@ -211,6 +211,8 @@ contract MyContract {
 
 All the messages contain the account of the sender and the transaction itself. We can access to the sender account from the smart contract by doing:
 
+| Field  | Description |
+| ------------- | ------------- |
 | msg.data | |
 | msg.gas | amount of gas the current function invocation has available |
 | msg.sender | sender account address |
@@ -272,7 +274,8 @@ modified mymodifier() {
 
 **- Other functions**
 
-| function name | description |
+| Function  | Description |
+| ------------- | ------------- |
 | now | current time |
 | block.difficulty | a level to resolve the current block |
 | random | example: |
