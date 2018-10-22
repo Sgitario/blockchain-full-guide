@@ -157,13 +157,10 @@ contract Numbers{
 
 **- Types**
 
-| First Header  | Second Header |
+| Type  | Description |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-|string| |
-| bool | |
+| string  |   |
+| bool  |   |
 | int or int256 | positive or negative non decimal numbers). Also, we can specify the range doing int8, int16, int32, ... |
 | uint | positive non decimal numbers |
 | fixed | decimal numbers |
