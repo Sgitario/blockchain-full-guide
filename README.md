@@ -167,8 +167,8 @@ contract Numbers{
 | address | example: 0x01ab1212... for accounts/clients |
 | fixed array | int[3] --> [1, 2, 3] |
 | dynamic array | int[] --> [1, 2, 3] |
-| mapping | mapping(string => string) |
 
+**- Mapping Type**
 This is like a key-value collection:
 
 ```
@@ -185,7 +185,7 @@ contract MyContract {
     }
 }
 ```
-| struct | custom types |
+**- Struct: Custom Type**
 
 ```
 contract MyContract {
